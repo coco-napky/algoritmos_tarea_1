@@ -7,7 +7,7 @@ bool numberExists(vector<int> ordered_numbers, int x, int inicio, int fin)
     if(inicio > fin)
         return false;
 
-    int index = inicio + (fin - inicio)/2;
+    int index = (inicio + fin)/2;
     int mid = ordered_numbers[index];
 
     if(mid == x)

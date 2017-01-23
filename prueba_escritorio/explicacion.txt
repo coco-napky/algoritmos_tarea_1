@@ -1,0 +1,4 @@
+El peor de los casos para el algoritmo seria buscar un numero en el inicio o al final de la lista.
+Para el dataset [1,2,3,4,5,6,7,8,9,10] fueron necesarias 4 niveles de recursion.
+En el peor de los casos el algoritmo corre en un tiempo logaritmico porque la cantidad de 
+recursiones/iteraciones son una fraccion (la mitad) del tamano del dataset.
